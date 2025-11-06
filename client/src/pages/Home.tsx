@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold mb-6 bg-gradient-to-r from-foreground via-primary to-neon bg-clip-text text-transparent leading-tight">
             Revolutionizing Outdoor Advertising in Africa
           </h1>
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
             AdvaTech Africa (ATA) is a next-generation Digital Out-of-Home (DOOH) platform designed to make outdoor advertising accessible, automated, and affordable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
