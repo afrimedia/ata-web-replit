@@ -14,17 +14,17 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 240 5% 96%;
+  --background: 240 5% 98%;
 
-  --foreground: 240 6% 10%;
+  --foreground: 240 10% 12%;
 
-  --border: 240 5% 88%;
+  --border: 240 5% 90%;
 
-  --card: 240 5% 94%;
+  --card: 0 0% 100%;
 
-  --card-foreground: 240 6% 12%;
+  --card-foreground: 240 10% 10%;
 
-  --card-border: 240 5% 86%;
+  --card-border: 240 5% 88%;
 
   --sidebar: 240 5% 92%;
 
@@ -71,12 +71,15 @@
   --input: 240 6% 72%;
   --ring: 265 68% 56%;
   --chart-1: 265 68% 56%;
-  --chart-2: 190 95% 42%;
+  --chart-2: 190 100% 50%;
   --chart-3: 265 48% 38%;
   --chart-4: 200 80% 48%;
   --chart-5: 275 60% 64%;
+  
+  --neon: 190 100% 50%;
 
-  --font-sans: Poppins, Inter, system-ui, -apple-system, sans-serif;
+  --font-sans: Inter, system-ui, -apple-system, sans-serif;
+  --font-heading: Poppins, system-ui, -apple-system, sans-serif;
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
   --radius: .5rem;
@@ -132,17 +135,17 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  --background: 240 6% 8%;
+  --background: 0 0% 8%;
 
-  --foreground: 240 4% 92%;
+  --foreground: 240 4% 95%;
 
-  --border: 240 5% 16%;
+  --border: 240 5% 18%;
 
-  --card: 240 5% 10%;
+  --card: 240 5% 12%;
 
-  --card-foreground: 240 4% 90%;
+  --card-foreground: 240 4% 93%;
 
-  --card-border: 240 5% 18%;
+  --card-border: 240 5% 20%;
 
   --sidebar: 240 5% 12%;
 
@@ -189,10 +192,12 @@
   --input: 240 6% 28%;
   --ring: 265 68% 56%;
   --chart-1: 265 68% 62%;
-  --chart-2: 190 95% 52%;
+  --chart-2: 190 100% 50%;
   --chart-3: 265 48% 68%;
   --chart-4: 200 80% 58%;
   --chart-5: 275 60% 72%;
+  
+  --neon: 190 100% 50%;
 
   --shadow-2xs: 0px 1px 2px 0px hsl(240 6% 4% / 0.20);
   --shadow-xs: 0px 1px 3px 0px hsl(240 6% 4% / 0.24);
