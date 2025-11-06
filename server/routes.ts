@@ -5,7 +5,7 @@ import { insertContactSchema, insertNewsletterSchema } from "@shared/schema";
 import { Resend } from "resend";
 
 // Initialize Resend with API key from environment
-const resend = process.env.RESEND_API_KEY 
+const resend = process.env.RESEND_API_KEY
   ? new Resend(process.env.RESEND_API_KEY)
   : null;
 
@@ -14,13 +14,13 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertContactSchema.parse(req.body);
       const contact = await storage.createContact(validatedData);
-      
+
       // Send email notification if Resend is configured
       if (resend) {
         try {
           await resend.emails.send({
-            from: 'ATA Contact Form <onboarding@resend.dev>', // Default sender for testing
-            to: 'support@ata.ke',
+            from: "ATA Support <support@ata.ke>",
+            to: "support@ata.ke",
             replyTo: validatedData.email,
             subject: `New Contact Form Submission from ${validatedData.name}`,
             html: `
@@ -43,7 +43,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
                     
                     <div style="margin-bottom: 16px;">
                       <p style="margin: 0 0 4px 0; color: #6b7280; font-size: 14px; font-weight: 600;">Company</p>
-                      <p style="margin: 0; color: #111827; font-size: 16px;">${validatedData.company || 'Not provided'}</p>
+                      <p style="margin: 0; color: #111827; font-size: 16px;">${validatedData.company || "Not provided"}</p>
                     </div>
                     
                     <div style="margin-bottom: 16px;">
@@ -68,20 +68,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
               </div>
             `,
           });
-          console.log(`✅ Contact form email sent to support@ata.ke for ${validatedData.name}`);
+          console.log(
+            `✅ Contact form email sent to support@ata.ke for ${validatedData.name}`,
+          );
         } catch (emailError) {
-          console.error('📧 Email send failed:', emailError);
+          console.error("📧 Email send failed:", emailError);
           // Don't fail the request - data is still saved
         }
       } else {
-        console.log('⚠️  Resend not configured - skipping email notification');
+        console.log("⚠️  Resend not configured - skipping email notification");
       }
-      
+
       res.json({ success: true, contact });
     } catch (error: any) {
-      res.status(400).json({ 
-        success: false, 
-        error: error.message || "Invalid contact data" 
+      res.status(400).json({
+        success: false,
+        error: error.message || "Invalid contact data",
       });
     }
   });
@@ -89,21 +91,21 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/newsletter", async (req, res) => {
     try {
       const validatedData = insertNewsletterSchema.parse(req.body);
-      
+
       const existing = await storage.getNewsletterByEmail(validatedData.email);
       if (existing) {
-        return res.status(400).json({ 
-          success: false, 
-          error: "This email is already subscribed" 
+        return res.status(400).json({
+          success: false,
+          error: "This email is already subscribed",
         });
       }
-      
+
       const newsletter = await storage.createNewsletter(validatedData);
       res.json({ success: true, newsletter });
     } catch (error: any) {
-      res.status(400).json({ 
-        success: false, 
-        error: error.message || "Invalid newsletter data" 
+      res.status(400).json({
+        success: false,
+        error: error.message || "Invalid newsletter data",
       });
     }
   });
@@ -113,9 +115,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const contacts = await storage.getAllContacts();
       res.json({ success: true, contacts });
     } catch (error: any) {
-      res.status(500).json({ 
-        success: false, 
-        error: "Failed to fetch contacts" 
+      res.status(500).json({
+        success: false,
+        error: "Failed to fetch contacts",
       });
     }
   });
@@ -125,9 +127,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const newsletters = await storage.getAllNewsletters();
       res.json({ success: true, newsletters });
     } catch (error: any) {
-      res.status(500).json({ 
-        success: false, 
-        error: "Failed to fetch newsletter subscriptions" 
+      res.status(500).json({
+        success: false,
+        error: "Failed to fetch newsletter subscriptions",
       });
     }
   });
