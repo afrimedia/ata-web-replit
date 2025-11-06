@@ -1,0 +1,320 @@
+🏠 HOME PAGE
+
+Hero Section
+
+Headline:
+
+Revolutionizing Outdoor Advertising in Africa
+
+Subheadline:
+
+AdvaTech Africa (ATA) is a next-generation Digital Out-of-Home (DOOH) platform designed to make outdoor advertising accessible, automated, and affordable.
+
+CTA Buttons:
+
+[Start Advertising] [Join as a Screen Owner]
+
+Visuals:
+Background of a vibrant African city at night with digital billboards glowing — your logo appears subtly in the corner.
+
+⸻
+
+How It Works
+
+1. Discover & Target
+Find digital screens across cities that match your audience and campaign goals.
+
+2. Bid & Schedule
+Choose your budget and preferred schedule — ATA’s intelligent RTB engine allocates your ads efficiently.
+
+3. Analyze & Optimize
+View live campaign performance and optimize in real-time for better results.
+
+CTA:
+
+Get started with your first campaign today.
+
+⸻
+
+Why Choose ATA
+	•	💡 Affordable: Buy ad time — not entire screens.
+	•	⚙️ Automated: Real-Time Bidding ensures efficient allocation and spending.
+	•	🌍 Connected: A growing network of verified digital screens across Africa.
+	•	📊 Transparent: Real-time reports and playback verification for every ad.
+
+⸻
+
+Trusted By
+
+We’re working with leading media owners and advertisers transforming outdoor advertising across Africa.
+
+(Placeholder for logos of partners or pilot networks — e.g., “Now Live in Nairobi, Mombasa, and Kampala.”)
+
+⸻
+
+CTA
+
+Ready to go live?
+Start your first campaign in minutes or connect your screen today.
+
+Buttons: [Launch Dashboard] [Join Network]
+
+⸻
+
+💼 FOR ADVERTISERS
+
+Headline:
+
+Smarter, Faster, and More Affordable Outdoor Advertising
+
+Intro:
+
+Traditional billboard advertising is expensive and inflexible. ATA changes that.
+We give you access to hundreds of digital screens across Africa — where you only pay for the exposure you need.
+
+⸻
+
+Key Features
+
+Smart Budgeting
+Set your budget, and ATA’s Real-Time Bidding (RTB) system automatically allocates ad time across screens that fit your target.
+
+Precise Targeting
+Select by city, neighborhood, audience type, or time of day — and we’ll match your ads to the right screens.
+
+Dynamic Scheduling
+Launch, pause, or update your creatives in real-time without extra cost.
+
+Analytics Dashboard
+Track impressions, screen locations, playback verification, and audience exposure.
+
+⸻
+
+Use Cases
+	•	Promote retail offers and events
+	•	Run product launches across cities
+	•	Manage brand awareness campaigns
+	•	Deploy public or NGO messages efficiently
+
+⸻
+
+CTA:
+
+Your next campaign deserves better visibility.
+[Start Advertising] [Book a Demo]
+
+⸻
+
+📺 FOR MEDIA OWNERS
+
+Headline:
+
+Turn Every Screen into a Revenue Stream
+
+Overview:
+
+Monetize your digital screens effortlessly by plugging into ATA’s automated ad network.
+Our platform fills idle ad slots with paid content from advertisers across Africa.
+
+⸻
+
+Benefits
+	•	💰 Instant Monetization: Generate income from every unused second of screen time.
+	•	🧠 Automated Scheduling: ATA’s cloud player handles ad rotation and playback management.
+	•	📈 Real-Time Earnings: Track revenue, playback status, and uptime in one dashboard.
+	•	🌐 Remote Management: Control your screens from anywhere — update, reboot, or monitor content easily.
+
+⸻
+
+How It Works
+	1.	Connect: Install the ATA Player App on your media player or smart TV.
+	2.	Sync: Your screen joins our network and appears in the marketplace.
+	3.	Earn: Ads from verified brands automatically start playing — and you get paid.
+
+⸻
+
+CTA:
+
+Join Africa’s fastest-growing digital screen network.
+[Register Your Screen]
+
+⸻
+
+⚙️ THE PLATFORM
+
+Headline:
+
+The Technology Powering Africa’s Outdoor Ad Revolution
+
+⸻
+
+Real-Time Bidding Engine
+
+ATA uses an RTB-inspired algorithm to dynamically match advertisers with available screen time.
+It ensures fair pricing, high fill rates, and maximum ROI for both sides.
+
+⸻
+
+Smart Content Delivery
+
+Our hybrid cloud architecture delivers ad content quickly and reliably.
+	•	Offline caching for uninterrupted playback
+	•	Secure cloud sync via Cloudflare R2
+	•	Remote updates powered by Balena Cloud
+
+⸻
+
+Real-Time Analytics
+
+Monitor ad performance, playback verification, and audience metrics in real time.
+
+Transparency and trust are built into every impression.
+
+⸻
+
+Scalable & Secure
+
+Built with modern infrastructure using:
+	•	Django & PostgreSQL backend
+	•	Web3-ready integrations
+	•	Encrypted transaction and audit logs
+
+⸻
+
+Integrations
+
+ATA integrates seamlessly with:
+	•	Cloudflare R2: Ultra-fast media delivery
+	•	DigitalOcean App Platform: Scalable cloud deployment
+	•	Balena Cloud: Remote device management
+
+⸻
+
+📊 INSIGHTS / BLOG
+
+Headline:
+
+Stay Ahead with DOOH Insights
+
+Intro:
+
+Our mission goes beyond technology — we’re building a knowledge base to grow Africa’s DOOH industry.
+
+Featured Articles:
+	•	“How Real-Time Bidding Is Changing Outdoor Advertising”
+	•	“Why SMEs Are the Future of Digital Billboards”
+	•	“Data Transparency: The Key to Outdoor Media Growth”
+	•	“The Future of DOOH in African Smart Cities”
+
+⸻
+
+CTA:
+
+Join our newsletter for monthly insights and industry trends.
+[Subscribe Now]
+
+⸻
+
+🏢 ABOUT US
+
+Headline:
+
+Empowering Africa’s Digital Advertising Future
+
+Story:
+
+AdvaTech Africa (ATA) is a technology company reshaping outdoor advertising through automation and accessibility.
+We believe in giving every brand — from startups to corporates — the power to go digital outdoors without barriers.
+
+⸻
+
+Mission:
+
+To make outdoor advertising accessible, automated, and affordable across Africa.
+
+Vision:
+
+A connected digital ecosystem where every brand and every screen can participate in Africa’s advertising revolution.
+
+⸻
+
+Core Values:
+	•	Innovation: We’re constantly reimagining what’s possible.
+	•	Accessibility: Every brand deserves visibility.
+	•	Transparency: Data-driven, open, and fair.
+	•	Collaboration: We grow through shared networks and partnerships.
+
+⸻
+
+Our Team:
+
+(Optional section for founders’ photos and short bios)
+Example:
+Caleb Binyenya — Founder & CEO
+Tech entrepreneur passionate about automation, digital media, and Africa’s next wave of advertising innovation.
+
+⸻
+
+📞 CONTACT / GET STARTED
+
+Headline:
+
+Let’s Transform Outdoor Advertising Together
+
+Subheadline:
+
+Whether you’re an advertiser, media owner, or tech partner — ATA is here to help you grow.
+
+Form Fields:
+	•	Name
+	•	Email
+	•	Company / Organization
+	•	Role (Advertiser / Screen Owner / Partner)
+	•	Message
+
+⸻
+
+Contact Details
+
+📧 Email: hello@adva.tech
+📞 Phone: +254 700 000 000
+📍 Location: Nairobi, Kenya
+
+Social Links:
+LinkedIn | X (Twitter) | Instagram | YouTube
+
+⸻
+
+Final CTA:
+
+Be part of the future of outdoor advertising.
+[Get Started] [Book a Demo]
+
+⸻
+
+🔒 LOGIN / DASHBOARD
+
+Headline:
+
+Welcome Back to ATA
+
+Advertisers:
+Manage campaigns, upload creatives, view insights, and control spending — all from one dashboard.
+
+Media Owners:
+Monitor screen uptime, earnings, and playback verification in real-time.
+
+⸻
+
+CTA:
+
+[Sign In] [Create Account]
+
+⸻
+
+🎨 DESIGN STYLE GUIDE
+	•	Primary Colors: Electric Purple (#7B3FE4), Midnight Blue (#141414), Neon Accent (#00E5FF)
+	•	Fonts: Poppins or Inter — clean, geometric, and modern
+	•	Visual Style: Futuristic, minimal, gradient backgrounds, tech-inspired lines or grids
+	•	Imagery: Cityscapes, digital screens, connected nodes, data overlays
+	•	Logo Placement: Top-left in navigation bar, white version for dark backgrounds
