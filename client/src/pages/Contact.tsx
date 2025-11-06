@@ -200,8 +200,8 @@ export default function Contact() {
                   <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-medium mb-1">Email</p>
-                    <a href="mailto:hello@adva.tech" className="text-muted-foreground hover:text-primary transition-colors">
-                      hello@adva.tech
+                    <a href="mailto:support@ata.ke" className="text-muted-foreground hover:text-primary transition-colors">
+                      support@ata.ke
                     </a>
                   </div>
                 </div>
@@ -210,8 +210,8 @@ export default function Contact() {
                   <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-medium mb-1">Phone</p>
-                    <a href="tel:+254700000000" className="text-muted-foreground hover:text-primary transition-colors">
-                      +254 700 000 000
+                    <a href="tel:+254708903501" className="text-muted-foreground hover:text-primary transition-colors">
+                      0708 903 501
                     </a>
                   </div>
                 </div>
