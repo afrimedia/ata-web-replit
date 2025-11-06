@@ -77,7 +77,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li><Link href="/advertisers" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-advertisers">Features</Link></li>
               <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-demo">Book a Demo</Link></li>
-              <li><Link href="/login" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-dashboard">Dashboard</Link></li>
+              <li><a href="https://web.ata.ke/auth/login" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-dashboard">Dashboard</a></li>
             </ul>
           </div>
 

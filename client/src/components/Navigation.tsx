@@ -57,7 +57,7 @@ export function Navigation() {
 
           <div className="hidden lg:flex items-center gap-3">
             <Button variant="ghost" asChild data-testid="button-login">
-              <Link href="/login">Login</Link>
+              <a href="https://web.ata.ke/auth/login" target="_blank" rel="noopener noreferrer">Login</a>
             </Button>
             <Button variant="default" asChild data-testid="button-get-started">
               <Link href="/contact">Get Started</Link>
@@ -99,7 +99,7 @@ export function Navigation() {
                 asChild
                 data-testid="mobile-button-login"
               >
-                <Link href="/login">Login</Link>
+                <a href="https://web.ata.ke/auth/login" target="_blank" rel="noopener noreferrer">Login</a>
               </Button>
               <Button
                 variant="default"

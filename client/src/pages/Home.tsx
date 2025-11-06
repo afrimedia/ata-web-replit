@@ -205,7 +205,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild data-testid="button-launch-dashboard">
-              <Link href="/login">Launch Dashboard</Link>
+              <a href="https://web.ata.ke/auth/login" target="_blank" rel="noopener noreferrer">Launch Dashboard</a>
             </Button>
             <Button
               size="lg"
