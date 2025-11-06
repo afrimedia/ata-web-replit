@@ -1,6 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Zap, Cloud, BarChart3, Shield, Boxes, Server } from "lucide-react";
-import { SiCloudflare, SiDigitalocean, SiDjango, SiPostgresql } from "react-icons/si";
+import {
+  SiCloudflare,
+  SiDigitalocean,
+  SiDjango,
+  SiPostgresql,
+} from "react-icons/si";
 
 export default function Platform() {
   return (
@@ -11,7 +16,8 @@ export default function Platform() {
             The Technology Powering Africa's Outdoor Ad Revolution
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground">
-            Built on cutting-edge infrastructure to deliver reliable, scalable, and transparent advertising.
+            Built on cutting-edge infrastructure to deliver reliable, scalable,
+            and transparent advertising.
           </p>
         </div>
       </section>
@@ -22,29 +28,41 @@ export default function Platform() {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-primary/10 mb-6">
               <Zap className="w-8 h-8 text-primary" />
             </div>
-            <h2 className="text-3xl font-heading font-bold mb-4">Real-Time Bidding Engine</h2>
+            <h2 className="text-3xl font-heading font-bold mb-4">
+              Real-Time Bidding Engine
+            </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              ATA uses an RTB-inspired algorithm to dynamically match advertisers with available screen time. It ensures fair pricing, high fill rates, and maximum ROI for both sides.
+              ATA uses an RTB-inspired algorithm to dynamically match
+              advertisers with available screen time. It ensures fair pricing,
+              high fill rates, and maximum ROI for both sides.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Intelligent ad placement optimization</span>
+                <span className="text-muted-foreground">
+                  Intelligent ad placement optimization
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Fair market pricing</span>
+                <span className="text-muted-foreground">
+                  Fair market pricing
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Maximum screen utilization</span>
+                <span className="text-muted-foreground">
+                  Maximum screen utilization
+                </span>
               </li>
             </ul>
           </div>
           <Card className="h-64 flex items-center justify-center bg-gradient-to-br from-primary/5 to-neon/5">
             <CardContent className="text-center">
               <Zap className="w-24 h-24 text-primary mx-auto mb-4 opacity-50" />
-              <p className="text-sm text-muted-foreground">RTB Algorithm Visualization</p>
+              <p className="text-sm text-muted-foreground">
+                RTB Algorithm Visualization
+              </p>
             </CardContent>
           </Card>
         </div>
@@ -53,29 +71,40 @@ export default function Platform() {
           <Card className="h-64 flex items-center justify-center bg-gradient-to-br from-neon/5 to-primary/5 md:order-1 order-2">
             <CardContent className="text-center">
               <Cloud className="w-24 h-24 text-neon mx-auto mb-4 opacity-50" />
-              <p className="text-sm text-muted-foreground">Hybrid Cloud Architecture</p>
+              <p className="text-sm text-muted-foreground">
+                Hybrid Cloud Architecture
+              </p>
             </CardContent>
           </Card>
           <div className="md:order-2 order-1">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-neon/10 mb-6">
               <Cloud className="w-8 h-8 text-neon" />
             </div>
-            <h2 className="text-3xl font-heading font-bold mb-4">Smart Content Delivery</h2>
+            <h2 className="text-3xl font-heading font-bold mb-4">
+              Smart Content Delivery
+            </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Our hybrid cloud architecture delivers ad content quickly and reliably, even in low-connectivity environments.
+              Our hybrid cloud architecture delivers ad content quickly and
+              reliably, even in low-connectivity environments.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-neon mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Offline caching for uninterrupted playback</span>
+                <span className="text-muted-foreground">
+                  Offline caching for uninterrupted playback
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-neon mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Secure cloud sync via Cloudflare R2</span>
+                <span className="text-muted-foreground">
+                  Secure cloud sync via 
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-neon mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Remote updates powered by Balena Cloud</span>
+                <span className="text-muted-foreground">
+                  Remote updates powered by Balena Cloud
+                </span>
               </li>
             </ul>
           </div>
@@ -86,114 +115,43 @@ export default function Platform() {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-primary/10 mb-6">
               <BarChart3 className="w-8 h-8 text-primary" />
             </div>
-            <h2 className="text-3xl font-heading font-bold mb-4">Real-Time Analytics</h2>
+            <h2 className="text-3xl font-heading font-bold mb-4">
+              Real-Time Analytics
+            </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Monitor ad performance, playback verification, and audience metrics in real time. Transparency and trust are built into every impression.
+              Monitor ad performance, playback verification, and audience
+              metrics in real time. Transparency and trust are built into every
+              impression.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Live playback verification</span>
+                <span className="text-muted-foreground">
+                  Live playback verification
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Detailed impression tracking</span>
+                <span className="text-muted-foreground">
+                  Detailed impression tracking
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <span className="text-muted-foreground">Audience engagement metrics</span>
+                <span className="text-muted-foreground">
+                  Audience engagement metrics
+                </span>
               </li>
             </ul>
           </div>
           <Card className="h-64 flex items-center justify-center bg-gradient-to-br from-primary/5 to-neon/5">
             <CardContent className="text-center">
               <BarChart3 className="w-24 h-24 text-primary mx-auto mb-4 opacity-50" />
-              <p className="text-sm text-muted-foreground">Analytics Dashboard</p>
+              <p className="text-sm text-muted-foreground">
+                Analytics Dashboard
+              </p>
             </CardContent>
           </Card>
-        </div>
-      </section>
-
-      <section className="py-20 bg-card">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-heading font-bold mb-4">Scalable & Secure</h2>
-            <p className="text-lg text-muted-foreground">Built with modern infrastructure</p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              {
-                icon: SiDjango,
-                title: "Django Backend",
-                description: "Robust Python framework"
-              },
-              {
-                icon: SiPostgresql,
-                title: "PostgreSQL",
-                description: "Reliable data storage"
-              },
-              {
-                icon: Boxes,
-                title: "Web3-Ready",
-                description: "Future-proof integrations"
-              },
-              {
-                icon: Shield,
-                title: "Encrypted",
-                description: "Secure transactions & logs"
-              }
-            ].map((tech, index) => (
-              <Card key={index} className="text-center hover-elevate transition-all" data-testid={`card-tech-${index + 1}`}>
-                <CardContent className="p-6">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
-                    <tech.icon className="w-7 h-7 text-primary" />
-                  </div>
-                  <h3 className="text-lg font-heading font-semibold mb-2">{tech.title}</h3>
-                  <p className="text-sm text-muted-foreground">{tech.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-heading font-bold mb-4">Integrations</h2>
-          <p className="text-lg text-muted-foreground">Seamless integration with leading platforms</p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {[
-            {
-              icon: SiCloudflare,
-              title: "Cloudflare R2",
-              description: "Ultra-fast media delivery with edge caching for instant content distribution."
-            },
-            {
-              icon: SiDigitalocean,
-              title: "DigitalOcean",
-              description: "Scalable cloud deployment with reliable infrastructure across Africa."
-            },
-            {
-              icon: Server,
-              title: "Balena Cloud",
-              description: "Remote device management for seamless screen monitoring and updates."
-            }
-          ].map((integration, index) => (
-            <Card key={index} className="hover-elevate transition-all" data-testid={`card-integration-${index + 1}`}>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-neon/10 flex items-center justify-center mb-4">
-                  <integration.icon className="w-6 h-6 text-neon" />
-                </div>
-                <CardTitle className="text-xl font-heading">{integration.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{integration.description}</p>
-              </CardContent>
-            </Card>
-          ))}
         </div>
       </section>
     </div>
