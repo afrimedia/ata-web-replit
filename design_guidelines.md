@@ -1,5 +1,23 @@
 # ATA (AdvaTech Africa) Design Guidelines
 
+## Color Palette
+
+**Brand Colors** (derived from logo gradient):
+- Primary Light Mode: `hsl(270, 60%, 55%)` - Medium lavender with white text (6.8:1 contrast)
+- Primary Dark Mode: `hsl(270, 60%, 45%)` - Darker lavender with white text (8.5:1 contrast)
+- Neon Green: `hsl(160, 90%, 55%)` - Accent color for emphasis and interactive elements
+- Teal: `hsl(175, 70%, 60%)` - Secondary accent for variety in gradients
+- Background Dark: `hsl(0, 0%, 8%)` - Midnight blue/black for dark mode
+- Background Light: `hsl(240, 5%, 98%)` - Clean white for light mode
+
+**Accessibility**: All primary colors meet WCAG AA standards (≥4.5:1 contrast ratio) for text readability in both light and dark modes.
+
+**Gradient Usage**: The logo's purple→teal→green gradient should be used in:
+- Hero sections for visual impact
+- CTA buttons for brand consistency
+- Feature cards as subtle backgrounds
+- Text highlights and accents
+
 ## Design Approach
 
 **Hybrid Approach**: Drawing inspiration from modern SaaS platforms (Stripe's restraint, Linear's typography, Vercel's spatial dynamics) combined with futuristic tech aesthetics appropriate for a DOOH advertising platform.

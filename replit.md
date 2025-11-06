@@ -20,10 +20,13 @@ AdvaTech Africa (ATA) is a next-generation Digital Out-of-Home (DOOH) advertisin
 - **Routing**: Wouter
 - **Styling**: Tailwind CSS + Shadcn UI components
 - **Fonts**: Poppins (headings), Inter (body text)
-- **Color Scheme**: 
-  - Primary: Electric Purple (#7B3FE4 / HSL 265 68% 56%)
-  - Background (Dark): Midnight Blue (#141414 / HSL 0 0% 8%)
-  - Accent: Neon Cyan (#00E5FF / HSL 190 100% 50%)
+- **Color Scheme** (derived from logo gradient, WCAG AA compliant):
+  - Primary (Light Mode): Lavender Purple (HSL 270 60% 55%) with white text
+  - Primary (Dark Mode): Darker Lavender (HSL 270 60% 45%) with white text
+  - Accent: Neon Green (HSL 160 90% 55%)
+  - Secondary Accent: Teal (HSL 175 70% 60%)
+  - Background (Dark): Midnight Black (HSL 0 0% 8%)
+  - Background (Light): Clean White (HSL 240 5% 98%)
 
 ### Backend
 - **Framework**: Express.js with TypeScript

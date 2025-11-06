@@ -22,9 +22,11 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 hover-elevate px-3 py-2 rounded-lg" data-testid="link-home">
-            <div className="text-2xl font-heading font-bold bg-gradient-to-r from-primary via-neon to-primary bg-clip-text text-transparent">
-              ATA
-            </div>
+            <img 
+              src={new URL('@assets/ATA-(LOGO) 3_1762443724542.png', import.meta.url).href} 
+              alt="ATA Logo" 
+              className="h-8 w-auto"
+            />
           </Link>
 
           <div className="hidden lg:flex items-center gap-1">

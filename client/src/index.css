@@ -32,7 +32,7 @@
 
   --sidebar-border: 240 5% 84%;
 
-  --sidebar-primary: 265 68% 56%;
+  --sidebar-primary: 270 60% 55%;
 
   --sidebar-primary-foreground: 265 20% 98%;
 
@@ -40,7 +40,7 @@
 
   --sidebar-accent-foreground: 240 7% 16%;
 
-  --sidebar-ring: 265 68% 56%;
+  --sidebar-ring: 270 60% 55%;
 
   --popover: 240 6% 90%;
 
@@ -48,9 +48,9 @@
 
   --popover-border: 240 6% 82%;
 
-  --primary: 265 68% 56%;
+  --primary: 270 60% 55%;
 
-  --primary-foreground: 265 20% 98%;
+  --primary-foreground: 270 20% 98%;
 
   --secondary: 240 7% 86%;
 
@@ -69,14 +69,15 @@
   --destructive-foreground: 0 20% 98%;
 
   --input: 240 6% 72%;
-  --ring: 265 68% 56%;
-  --chart-1: 265 68% 56%;
-  --chart-2: 190 100% 50%;
-  --chart-3: 265 48% 38%;
-  --chart-4: 200 80% 48%;
-  --chart-5: 275 60% 64%;
+  --ring: 270 60% 55%;
+  --chart-1: 270 55% 70%;
+  --chart-2: 160 90% 55%;
+  --chart-3: 175 70% 60%;
+  --chart-4: 200 75% 50%;
+  --chart-5: 265 50% 65%;
   
-  --neon: 190 100% 50%;
+  --neon: 160 90% 55%;
+  --teal: 175 70% 60%;
 
   --font-sans: Inter, system-ui, -apple-system, sans-serif;
   --font-heading: Poppins, system-ui, -apple-system, sans-serif;
@@ -153,7 +154,7 @@
 
   --sidebar-border: 240 5% 20%;
 
-  --sidebar-primary: 265 68% 56%;
+  --sidebar-primary: 270 60% 45%;
 
   --sidebar-primary-foreground: 265 20% 98%;
 
@@ -161,7 +162,7 @@
 
   --sidebar-accent-foreground: 240 4% 86%;
 
-  --sidebar-ring: 265 68% 56%;
+  --sidebar-ring: 270 60% 45%;
 
   --popover: 240 6% 14%;
 
@@ -169,9 +170,9 @@
 
   --popover-border: 240 6% 22%;
 
-  --primary: 265 68% 56%;
+  --primary: 270 60% 45%;
 
-  --primary-foreground: 265 20% 98%;
+  --primary-foreground: 270 20% 98%;
 
   --secondary: 240 6% 18%;
 
@@ -190,14 +191,15 @@
   --destructive-foreground: 0 20% 98%;
 
   --input: 240 6% 28%;
-  --ring: 265 68% 56%;
-  --chart-1: 265 68% 62%;
-  --chart-2: 190 100% 50%;
-  --chart-3: 265 48% 68%;
-  --chart-4: 200 80% 58%;
-  --chart-5: 275 60% 72%;
+  --ring: 270 60% 45%;
+  --chart-1: 270 60% 45%;
+  --chart-2: 160 90% 55%;
+  --chart-3: 175 70% 60%;
+  --chart-4: 200 75% 50%;
+  --chart-5: 265 50% 65%;
   
-  --neon: 190 100% 50%;
+  --neon: 160 90% 55%;
+  --teal: 175 70% 60%;
 
   --shadow-2xs: 0px 1px 2px 0px hsl(240 6% 4% / 0.20);
   --shadow-xs: 0px 1px 3px 0px hsl(240 6% 4% / 0.24);
