@@ -25,7 +25,7 @@ export function Navigation() {
             <img 
               src={new URL('@assets/ATA-(LOGO) 3_1762443724542.png', import.meta.url).href} 
               alt="ATA Logo" 
-              className="h-8 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
 
