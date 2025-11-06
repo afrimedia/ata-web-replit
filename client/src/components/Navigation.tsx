@@ -13,7 +13,7 @@ export function Navigation() {
     { href: "/media-owners", label: "For Media Owners" },
     { href: "/platform", label: "Platform" },
     { href: "/about", label: "About" },
-    { href: "/blog", label: "Insights" },
+    // { href: "/blog", label: "Insights" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -21,10 +21,19 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2 hover-elevate px-3 py-2 rounded-lg" data-testid="link-home">
-            <img 
-              src={new URL('@assets/ATA-(LOGO) 3_1762443724542.png', import.meta.url).href} 
-              alt="ATA Logo" 
+          <Link
+            href="/"
+            className="flex items-center gap-2 hover-elevate px-3 py-2 rounded-lg"
+            data-testid="link-home"
+          >
+            <img
+              src={
+                new URL(
+                  "@assets/ATA-(LOGO) 3_1762443724542.png",
+                  import.meta.url,
+                ).href
+              }
+              alt="ATA Logo"
               className="h-10 w-auto"
             />
           </Link>
@@ -39,7 +48,7 @@ export function Navigation() {
                     ? "text-primary"
                     : "text-muted-foreground"
                 }`}
-                data-testid={`link-${link.label.toLowerCase().replace(/\s+/g, '-')}`}
+                data-testid={`link-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
               >
                 {link.label}
               </Link>
@@ -78,16 +87,26 @@ export function Navigation() {
                     : "text-muted-foreground"
                 }`}
                 onClick={() => setIsOpen(false)}
-                data-testid={`mobile-link-${link.label.toLowerCase().replace(/\s+/g, '-')}`}
+                data-testid={`mobile-link-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
               >
                 {link.label}
               </Link>
             ))}
             <div className="pt-4 space-y-2">
-              <Button variant="ghost" className="w-full" asChild data-testid="mobile-button-login">
+              <Button
+                variant="ghost"
+                className="w-full"
+                asChild
+                data-testid="mobile-button-login"
+              >
                 <Link href="/login">Login</Link>
               </Button>
-              <Button variant="default" className="w-full" asChild data-testid="mobile-button-get-started">
+              <Button
+                variant="default"
+                className="w-full"
+                asChild
+                data-testid="mobile-button-get-started"
+              >
                 <Link href="/contact">Get Started</Link>
               </Button>
             </div>
