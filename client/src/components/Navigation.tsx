@@ -23,7 +23,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <Link
             href="/"
-            className="flex items-center gap-2 hover-elevate px-3 py-2 rounded-lg"
+            className="flex items-center hover-elevate rounded-lg"
             data-testid="link-home"
           >
             <img
@@ -34,7 +34,7 @@ export function Navigation() {
                 ).href
               }
               alt="ATA Logo"
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </Link>
 
